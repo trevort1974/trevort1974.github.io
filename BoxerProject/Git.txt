@@ -1,0 +1,300 @@
+
+Trevor@TrevorComputer MINGW64 ~/ua/repo (master)
+$ git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': ttreece1974
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/trevort1974/Gilberttestrepo
+.git/'
+
+Trevor@TrevorComputer MINGW64 ~/ua/repo (master)
+$ cd ud
+bash: cd: ud: No such file or directory
+
+Trevor@TrevorComputer MINGW64 ~/ua/repo (master)
+$ cd ua
+bash: cd: ua: No such file or directory
+
+Trevor@TrevorComputer MINGW64 ~/ua/repo (master)
+$ cd ..
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ mkdir new
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ ls
+'2nd class'/   gitlab/      myfirsthtml.html   repo/    week1homework/
+ Boxer/        index.html   new/               Repos/
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to fo
+llow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ git clone https://github.com/trevort1974/Gilberttestrepo.git
+Cloning into 'Gilberttestrepo'...
+warning: You appear to have cloned an empty repository.
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ ls
+'2nd class'/   Gilberttestrepo/   index.html         new/    Repos/
+ Boxer/        gitlab/            myfirsthtml.html   repo/   week1homework/
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ cd new
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ ls
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ touch test.html
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ ls test.html
+test.html
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ git add test.html
+fatal: not a git repository (or any of the parent directories): .git
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ git add https://github.com/trevort1974/Gilberttestrepo.git
+fatal: not a git repository (or any of the parent directories): .git
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ git pull test.html
+fatal: not a git repository (or any of the parent directories): .git
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ git add test.html
+fatal: not a git repository (or any of the parent directories): .git
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ ls
+test.html
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ pwd
+/c/Users/Trevor/ua/new
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ git clone https://github.com/trevort1974/Gilberttestrepo.git
+Cloning into 'Gilberttestrepo'...
+warning: You appear to have cloned an empty repository.
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ git add test.html
+fatal: not a git repository (or any of the parent directories): .git
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ ls
+Gilberttestrepo/  test.html
+
+Trevor@TrevorComputer MINGW64 ~/ua/new
+$ cd
+
+Trevor@TrevorComputer MINGW64 ~
+$ cd Gilberttestrepo
+bash: cd: Gilberttestrepo: No such file or directory
+
+Trevor@TrevorComputer MINGW64 ~
+$ cd Gilberttestrepo
+bash: cd: Gilberttestrepo: No such file or directory
+
+Trevor@TrevorComputer MINGW64 ~
+$ ls
+ _netrc
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ ntuser.dat
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer0000000000000000000
+1.regtrans-ms
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer0000000000000000000
+2.regtrans-ms
+ ntuser.dat{31c0c981-2592-11e7-8180-2c41385fd8dd}.TM.blf
+ ntuser.dat{31c0c981-2592-11e7-8180-2c41385fd8dd}.TMContainer0000000000000000000
+1.regtrans-ms
+ ntuser.dat{31c0c981-2592-11e7-8180-2c41385fd8dd}.TMContainer0000000000000000000
+2.regtrans-ms
+ ntuser.dat{bf716556-c80c-11e4-892d-806e6f6e6963}.TM.blf
+ ntuser.dat{bf716556-c80c-11e4-892d-806e6f6e6963}.TMContainer0000000000000000000
+1.regtrans-ms
+ ntuser.dat{bf716556-c80c-11e4-892d-806e6f6e6963}.TMContainer0000000000000000000
+2.regtrans-ms
+ ntuser.ini
+ Pictures/
+ PrintHood@
+ Recent@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ UA/
+ Videos/
+
+Trevor@TrevorComputer MINGW64 ~
+$ cd ua
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ cd Gilberttestrepo
+
+Trevor@TrevorComputer MINGW64 ~/ua/Gilberttestrepo (master)
+$ touch new.html
+
+Trevor@TrevorComputer MINGW64 ~/ua/Gilberttestrepo (master)
+$ git clone https://github.com/trevort1974/Gilberttestrepo.git
+Cloning into 'Gilberttestrepo'...
+warning: You appear to have cloned an empty repository.
+
+Trevor@TrevorComputer MINGW64 ~/ua/Gilberttestrepo (master)
+$ git clone https://github.com/trevort1974/Gilberttestrepo.git
+fatal: destination path 'Gilberttestrepo' already exists and is not an empty dir
+ectory.
+
+Trevor@TrevorComputer MINGW64 ~/ua/Gilberttestrepo (master)
+$ ls
+Gilberttestrepo/  new.html
+
+Trevor@TrevorComputer MINGW64 ~/ua/Gilberttestrepo (master)
+$ cd Gilberttestrepo
+
+Trevor@TrevorComputer MINGW64 ~/ua/Gilberttestrepo/Gilberttestrepo (master)
+$ ls
+
+Trevor@TrevorComputer MINGW64 ~/ua/Gilberttestrepo/Gilberttestrepo (master)
+$ cd ..
+
+Trevor@TrevorComputer MINGW64 ~/ua/Gilberttestrepo (master)
+$ cd ..
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ git clone https://github.com/trevort1974/new1.git
+Cloning into 'new1'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ ls
+'2nd class'/        gitlab/            new/    Repos/
+ Boxer/             index.html         new1/   week1homework/
+ Gilberttestrepo/   myfirsthtml.html   repo/
+
+Trevor@TrevorComputer MINGW64 ~/ua
+$ cd new1
+
+Trevor@TrevorComputer MINGW64 ~/ua/new1 (master)
+$ ls
+README.md
+
+Trevor@TrevorComputer MINGW64 ~/ua/new1 (master)
+$ touch 1.html
+
+Trevor@TrevorComputer MINGW64 ~/ua/new1 (master)
+$ git add 1.html
+
+Trevor@TrevorComputer MINGW64 ~/ua/new1 (master)
+$ ls
+1.html  README.md
+
+Trevor@TrevorComputer MINGW64 ~/ua/new1 (master)
+$ git commit -m "version1"
+[master b4646d3] version1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1.html
+
+Trevor@TrevorComputer MINGW64 ~/ua/new1 (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': ttreece1974
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/trevort1974/new1.git/'
+
+Trevor@TrevorComputer MINGW64 ~/ua/new1 (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': ttreece1974
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/trevort1974/new1.git/'
+
+Trevor@TrevorComputer MINGW64 ~/ua/new1 (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 271 bytes | 90.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/trevort1974/new1.git
+   5fb2e99..b4646d3  master -> master
+
+Trevor@TrevorComputer MINGW64 ~/ua/new1 (master)
+$
